@@ -37,6 +37,34 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Un Fix It!" />
+	    
+	    <TextView
+            android:id="@+id/textBoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="20dp"
+	    android:text="Patch is not applied on boot!"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:shadowColor="#FF000000" />
+
+        <Button
+            android:id="@+id/buttonSetOnBoot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Set patch on boot!" />
+
+        <Button
+            android:id="@+id/buttonUnSetOnBoot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Unset patch on boot!" />
     </LinearLayout>
 
 </RelativeLayout>
